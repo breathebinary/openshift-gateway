@@ -1,0 +1,6 @@
+---
+- name: Setup Openshift Gateway
+  hosts: gateway_servers
+  gather_facts: no
+  roles:
+    - haproxy_config
