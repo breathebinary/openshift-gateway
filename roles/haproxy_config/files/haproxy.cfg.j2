@@ -1,8 +1,5 @@
 # haproxy.cfg.j2
 
-{% set masters = groups['masters'] %}
-{% set workers = groups['workers'] %}
-
 global
   log         127.0.0.1 local2
   pidfile     /var/run/haproxy.pid
